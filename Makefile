@@ -8,4 +8,4 @@ format:
 	black *.py
 
 test:
-	python -m pytest -vv --cov=basic_example test_basic_example.py
+	python -m pytest test_basic_example.py
