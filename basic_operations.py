@@ -10,8 +10,6 @@ def multiply_two_floats(flt_1: float, flt_2: float) -> float:
     """
     Function that multiply two floats
     """
-    flt_out = flt_1*flt_2
+    flt_out = flt_1 * flt_2
 
     return flt_out
-
-    
