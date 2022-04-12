@@ -10,4 +10,3 @@ List of resources that can help navigating this repository smoothly
 - https://www.jenkins.io/solutions/github/
 
 - https://www.youtube.com/watch?v=4gbUYOgALik
-
