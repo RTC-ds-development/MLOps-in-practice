@@ -13,5 +13,3 @@ Repository to test and explore MLOps capabilities
 
 * To generate `requirements.txt`:
     `pip freeze > requirements.txt`
-
-* To install _make_ on Windows: https://www.technewstoday.com/install-and-use-make-in-windows/
