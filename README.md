@@ -1,4 +1,4 @@
-[![MLOps in practice with Github Actions](https://github.com/RTC-ds-development/MLOps-in-practice/actions/workflows/main.yml/badge.svg?branch=testing-github-actions)](https://github.com/RTC-ds-development/MLOps-in-practice/actions/workflows/main.yml)
+[![Python application test with Github Actions](https://github.com/RTC-ds-development/MLOps-in-practice/actions/workflows/main.yml/badge.svg?branch=testing-github-actions)](https://github.com/RTC-ds-development/MLOps-in-practice/actions/workflows/main.yml)
 
 
 # MLOps in practice
