@@ -1,15 +1,7 @@
 name: Scheduling python script
 on:
-  push:
-    branches:
-      - main
   schedule:
-    - cron: '*/5 * * * *'
-  #    - dev
-  #pull_request:
-  #  branches:
-  #    - main
-  
+    - cron: '*/2 * * * *'  
 jobs:
   build:
     runs-on: ubuntu-latest
