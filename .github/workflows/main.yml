@@ -1,0 +1,30 @@
+name: Python application test with Github Actions
+on:
+  push:
+    branches:
+      - main
+      - testing-github-actions
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Install dependencies
+      run: |
+        make install
+    - name: Linting
+      run: |
+        make lint
+    - name: Testing scrips
+      run: |
+        make test
+    - name: Formatting .py files
+      run: |
+        make format
