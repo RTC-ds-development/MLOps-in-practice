@@ -1,12 +1,10 @@
-name: Python application test with Github Actions
+name: Master
 on:
-  push:
-    branches:
-      - main
-      - testing-github-actions
   pull_request:
     branches:
       - main
+  schedule:
+    - cron: '*/2 * * * *'  
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,3 +26,8 @@ jobs:
     - name: Formatting .py files
       run: |
         make format
+    - name: Running
+      run: |
+        echo "Running!"
+        python pushing_data.py
+        echo "Done"
