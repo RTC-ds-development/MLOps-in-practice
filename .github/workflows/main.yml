@@ -1,5 +1,12 @@
 name: Python application test with Github Actions
-on: [push]
+on:
+  push:
+    branches:
+      - main
+      - testing-github-actions
+  pull_request:
+    branches:
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
