@@ -1,5 +1,8 @@
-name: Scheduling python script
+name: Master
 on:
+  pull_request:
+    branches:
+      - main
   schedule:
     - cron: '*/2 * * * *'  
 jobs:
