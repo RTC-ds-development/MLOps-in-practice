@@ -19,6 +19,12 @@ jobs:
     - name: Install dependencies
       run: |
         make install
+    - name: Linting
+      run: |
         make lint
+    - name: Testing scrips
+      run: |
         make test
+    - name: Formatting .py files
+      run: |
         make format
