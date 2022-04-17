@@ -34,7 +34,4 @@ jobs:
       run: |
         echo "Running!"
         python pushing_data.py
-        git add test_data.csv
-        git commit -m "pushing data for the day"
-        git push
         echo "Done"
